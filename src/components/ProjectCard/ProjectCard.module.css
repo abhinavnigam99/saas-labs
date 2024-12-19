@@ -1,0 +1,54 @@
+.projectCard {
+  border: 1px solid aliceblue;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cardHeader {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.sNo {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: dimgray;
+}
+
+.projectTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.projectBlurb {
+  font-size: 0.9rem;
+  color: darkslategray;
+  margin: 0.5rem 0;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.percentageFunded {
+  color: skyblue;
+}
+
+.amountPledged {
+  color: seagreen;
+}
+
+.cardFooter {
+  font-size: 0.8rem;
+  color: darkgray;
+  text-align: right;
+}
